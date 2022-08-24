@@ -95,6 +95,11 @@ sudo nano /etc/grafana/grafana.ini
 
 ![image](https://user-images.githubusercontent.com/20743678/186396293-9b410d97-2b28-40dd-b617-fdf05472c6c1.png)
 
+![image](https://user-images.githubusercontent.com/20743678/186396594-fe4c56c9-0e59-452c-883a-61ac908a3f26.png)
+
+![image](https://user-images.githubusercontent.com/20743678/186396734-fef1d258-1f8e-4941-bd15-dece7e238315.png)
+
+![image](https://user-images.githubusercontent.com/20743678/186396785-1c01df96-8644-46f2-a200-e85341dfba88.png)
 
 
 
