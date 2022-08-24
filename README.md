@@ -101,6 +101,15 @@ sudo nano /etc/grafana/grafana.ini
 
 ![image](https://user-images.githubusercontent.com/20743678/186396785-1c01df96-8644-46f2-a200-e85341dfba88.png)
 
+sudo nano /etc/rsyslog.conf
+
+línea 18
+
+![image](https://user-images.githubusercontent.com/20743678/186403373-7905d668-744b-44c8-ae13-7d4bc2ca49ac.png)
+
+sudo service rsyslog restart
+
+
 
 
 
