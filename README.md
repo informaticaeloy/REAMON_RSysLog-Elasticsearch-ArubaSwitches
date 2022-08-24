@@ -67,5 +67,35 @@ http://<ip_de_nuestro_ubuntu>:9200
 
 ### 2. Instalación de Grafana
 
+sudo wget -q -O /usr/share/keyrings/grafana.key https://packages.grafana.com/gpg.key
+
+echo "deb [signed-by=/usr/share/keyrings/grafana.key] https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
+
+sudo apt-get update
+
+sudo apt-get install grafana
+
+systemctl status grafana-server
+
+![image](https://user-images.githubusercontent.com/20743678/186395047-7909b594-18d2-4ec6-bc51-e2fc11547b5d.png)
+
+systemctl start grafana-server
+
+systemctl status grafana-server
+
+![image](https://user-images.githubusercontent.com/20743678/186395251-2720438d-4eb5-4e60-bf5d-a60d3067dcb4.png)
+
+http://192.168.46.214:3000/login
+
+![image](https://user-images.githubusercontent.com/20743678/186395944-1794c9f8-29d8-4d01-a607-77451aa52f1e.png)
+
+admin/admin
+
+sudo nano /etc/grafana/grafana.ini
+
+![image](https://user-images.githubusercontent.com/20743678/186396293-9b410d97-2b28-40dd-b617-fdf05472c6c1.png)
+
+
+
 
 
